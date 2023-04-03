@@ -78,7 +78,7 @@ const Tables = () => {
                   <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
                     {item.productName}
                   </Table.Cell>
-                  <Table.Cell > wfew{item.id}</Table.Cell>
+                  <Table.Cell > {item.id}</Table.Cell>
                   <Table.Cell>{item.name}</Table.Cell>
                   <Table.Cell className="whitespace-nowrap ">
                     {item.barcode}
