@@ -18,7 +18,7 @@ const Login = () => {
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    token === null || token === "undefined" ? navigate("/") : navigate("/home");
+    token === null || token === "undefined" ? navigate("/login") : navigate("/");
   }, []);
   const loginFun = (userName, password, subdomain) => {
     auth

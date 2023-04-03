@@ -9,7 +9,7 @@ const Home = () => {
   // console.log(token);
 
   useEffect(() => {
-    token === null || token === "undefined" ? navigate("/") : navigate("/home");
+    token === null || token === "undefined" ? navigate("/login") : navigate("/");
   }, []);
   return (
     <>
