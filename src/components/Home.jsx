@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Sidebar, Navbar, Tab, Table , TableAnt} from ".";
+import { Sidebar, Navbar,  Table } from ".";
 
 const Home = () => {
   const navigate = useNavigate();
