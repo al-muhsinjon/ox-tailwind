@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "farxod",
+      "password": "123456",
+      "subdomain": "Pro"
+    },
+    {
+      "id": 1,
+      "username": "farrux",
+      "password": "654321",
+      "subdomain": "Coca"
+    },
+    {
+      "id": 1,
+      "username": "faxriddin",
+      "password": "098765",
+      "subdomain": "pepsi"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "farxod",
+      "password": "123456",
+      "subdomain": "Pro"
+    },
+    {
+      "id": 1,
+      "username": "farrux",
+      "password": "654321",
+      "subdomain": "Coca"
+    },
+    {
+      "id": 1,
+      "username": "faxriddin",
+      "password": "098765",
+      "subdomain": "pepsi"
+    }
+  ]
+}
