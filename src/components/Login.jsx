@@ -27,7 +27,7 @@ const Login = () => {
       .then((data) => {
         localStorage.setItem("token", data.token);
         if (data.code !== 401) {
-          navigate("/home");
+          navigate("/");
           window.location.reload();
           // console.log(data);
         } else {
